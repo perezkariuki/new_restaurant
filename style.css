@@ -14,15 +14,28 @@ a {
   padding: 10px 30px;
   color: wheat;
 }
-/*  header  
-#header .nav_list ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*  header  */
+#header .nav-bar {
+  background-color: lawngreen;
+  overflow: hidden;
 }
-  end of header  */
+#header .logo a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#header .nav_list {
+  float: right;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+#header .nav_list a {
+  padding: 10px;
+}
+/* end of header  */
 
 /*  home body  */
 #main-home {
